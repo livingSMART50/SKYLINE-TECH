@@ -1,0 +1,41 @@
+table{
+    width: 70%;
+    font-size: 20px;
+    margin:  auto;
+    text-align: center;
+}
+
+th{
+    background-color: dodgerblue;
+    color: white;
+}
+
+caption{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+    margin: 10px 0;
+}
+
+table, th, td{
+    border: 1px solid lightgray;
+    border-collapse: collapse;
+ 
+}
+
+th, td{
+    padding: 10px;
+}
+
+tr:nth-child(even){
+    background-color: whitesmoke;
+    border-collapse: collapse;
+}
+
+.btn input{
+    background-color: dodgerblue;
+    color: white;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
