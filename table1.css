@@ -1,0 +1,116 @@
+
+/* here is container styling */
+.container{
+    width: 80%;
+    margin: auto;
+    text-transform: capitalize;
+}
+caption{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    margin: 10px;
+    font-weight: 700;
+
+}
+table{
+    width: 100%;
+}
+table, th, td{
+    border-bottom: 1px solid lightgrey;
+    border-collapse: collapse;
+    padding: 10px;
+}
+th{
+    background-color: dodgerblue;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+td{
+    text-align: center;
+    font-size: 16px;
+}
+tr:nth-child(even){
+    background-color: whitesmoke;
+    
+}
+tr:hover{
+    background-color: lightgrey;
+
+    
+/* design for the various grades */
+}
+.Excellent{
+    background-color:rgb(199, 13, 245);
+    color: white;
+    padding: 5px;
+    border-radius: 7px;
+}
+
+
+.Good{
+    background-color: green;
+    color: white;
+    padding: 5px;
+    border-radius: 7px
+}
+
+.vGood{
+
+    color: white;
+    padding: 5px;
+    border-radius: 7px;
+    background-color:rgb(199, 13, 245);
+
+
+}
+
+.veryGood{
+
+    color: white;
+    padding: 5px;
+    border-radius: 7px;
+    background-color: rgb(102, 74, 4);
+
+}
+
+
+.Average{
+    background-color: orange;
+    color: white;
+    padding: 5px;
+    border-radius: 7px
+}
+.Fail{
+    background-color: red;
+    color: white;
+    padding: 5px;
+    border-radius: 7px
+
+}
+.Pass1{
+    background-color:rgb(199, 13, 245);
+    color: white;
+    padding: 2px;
+}
+.Pass2{
+    background-color: green;
+    color: white;
+    padding: 2px;
+}
+.Pass3{
+    background-color: orange;
+    color: white;
+    padding: 2px;
+}
+.Pass4{
+    background-color:rgb(199, 13, 245);
+    color: white;
+    padding: 2px;
+}
+
+.Pass5{
+    background-color: rgb(102, 74, 4);
+    color: white;
+    padding: 2px;
+}
